@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic Calligraphy Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, h1, h2, p, ul, li, figure, img, input, textarea, button {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1rem;
+            background-color: #555;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #ff7f50;
+            transform: scale(1.05);
+        }
+
+        .hero {
+            background: url('hero-bg.jpg') no-repeat center center/cover;
+            color: #333;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .hero h1 {
+            color: #4d4d4d;
+        }
+
+        .hero p {
+            color: #333;
+        }
+
+        .card-section {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 2rem auto;
+            width: 90%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .card-section h2, .card-section h3, .card-section p {
+            margin-bottom: 1rem;
+        }
+
+        .style-section {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 2rem auto;
+            width: 90%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .style-section h3 {
+            margin-bottom: 1rem;
+        }
+
+        .image-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        figure {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        figure:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        figcaption {
+            padding: 0.5rem;
+            text-align: center;
+            background: #f8f8f8;
+        }
+
+        button {
+            background-color: #555;
+            color: #fff;
+            padding: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff7f50;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#styles">Styles of Islamic Calligraphy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <h1>Welcome to the Islamic Calligraphy Gallery</h1>
+            <p style="font-size: larger;">Explore the elegance of Islamic art through calligraphy.</p>
+            
+        </section>
+
+        <section class="card-section">
+            <h2>The History of Islamic Calligraphy</h2>
+            <p>Islamic Calligraphy is an esteemed art form that merges the grace of writing with religious and cultural significance in the Islamic realm. Its roots are closely linked with the Quran, making it a vital channel for spiritual expression and artistic endeavor.</p>
+
+            <h3>Origins and Development</h3>
+            <p>The early Islamic calligraphy was used to document the Quran, with Arabic becoming central to its development. Early scripts like Hijazi and Kufic were angular and geometric, suited for inscriptions and manuscripts. Over the centuries, calligraphers refined these styles, particularly for copying religious texts. By the 9th century, Ibn Muqlah standardized the proportional principles of calligraphy, influencing classical styles.</p>
+
+            <h3>Religious and Cultural Significance</h3>
+            <p>Islamic calligraphy holds profound cultural importance in Muslim societies due to its connection with the Quran. With a preference for abstract and geometric designs, calligraphy became the predominant form of artistic expression, adorning various mediums from architecture to textiles.</p>
+
+            <h3>Tools and Techniques</h3>
+            <p>Traditional calligraphers used tools such as a reed pen (qalam) and handmade ink. Mastery of these tools is crucial for achieving the delicate, fluid lines characteristic of Islamic calligraphy. The craft often involves deep spiritual training, reflecting its sacred nature.</p>
+        </section>
+
+        <section class="card-section" id="styles">
+            <h2>Styles of Islamic Calligraphy</h2>
+            <p>Throughout history, Islamic calligraphy has developed a range of styles, each reflecting the artistic and cultural diversity of the Islamic world.</p>
+
+            <div class="style-section">
+                <h3>Kufic:</h3>
+                <p>An early style known for its angular, geometric appearance, often found in architectural decorations from early Islamic periods.</p>
+                <div class="image-group">
+                    <figure>
+                        <img src="A LARGE QURAN FOLIO IN KUFIC SCRIPT ON PAPER, NORTH AFRICA OR NEAR EAST, LATE 9TH-.jpg" alt="Kufic Calligraphy 1">
+                        <figcaption>A Large Quran Folio in Kufic Script on paper, North Africa or Near East, Late 9th century .</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="The classical Kufic script of the Blue Quran..jpg" alt="Kufic Calligraphy 2">
+                        <figcaption>The Classical Kufic Script of the Blue Quran.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Folio with kufic script.jpg" alt="Kufic Calligraphy 3">
+                        <figcaption>Folio With Kufic Script.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="style-section">
+                <h3>Naskh:</h3>
+                <p>A cursive and elegant script, widely used for Quranic manuscripts and other texts due to its clarity and readability.</p>
+                <div class="image-group">
+                    <figure>
+                        <img src="Nakh on Folio Taken from Baghdad.jpg" alt="Naskh Calligraphy 1">
+                        <figcaption>Naskh on Folio Taken from Baghdad.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="An Old Naksh Script Reconstructed.jpeg" alt="Naskh Calligraphy 2">
+                        <figcaption>An Old Naksh Script Reconstructed.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Another Naksh Script Reconstructed.jpg" alt="Naskh Calligraphy 3">
+                        <figcaption>Another Naksh Script Reconstructed.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="style-section">
+                <h3>Thuluth:</h3>
+                <p>Characterized by its majestic and flowing style, Thuluth is often used in architectural inscriptions and for decorative purposes.</p>
+                <div class="image-group">
+                    <figure>
+                        <img src="Thuluth Script Taken from South Africa.jpg" alt="Thuluth Calligraphy 1">
+                        <figcaption>Thuluth Script Taken from South Africa.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Tinta Abu Hannan Qalam Thuluth.jpg" alt="Thuluth Calligraphy 2">
+                        <figcaption>Tinta Abu Hannan Qalam Thuluth.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Ottoman Thuluth.webp" alt="Thuluth Calligraphy 3">
+                        <figcaption>Ottoman Thuluth.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="style-section">
+                <h3>Diwani:</h3>
+                <p>Renowned for its intricate and ornate appearance, Diwani was historically used for official documents and correspondence.</p>
+                <div class="image-group">
+                    <figure>
+                        <img src="Diwani Calligraphy by Kazasker Mustafa Izzet Efendi.jpg" alt="Diwani Calligraphy 1">
+                        <figcaption>Diwani Calligraphy by Kazasker Mustafa Izzet Efendi.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Diwani Letters.jpg" alt="Diwani Calligraphy 2">
+                        <figcaption>Diwani Letters.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Art Work Done Through Diwani Penmenship.jpg" alt="Diwani Calligraphy 3">
+                        <figcaption>Art Work Done Through Diwani Penmenship.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="style-section">
+                <h3>Tughra:</h3>
+                <p>A stylized form of Ottoman calligraphy, the Tughra is often used as an imperial signature, distinguished by its elaborate and decorative elements.</p>
+                <div class="image-group">
+                    <figure>
+                        <img src="Tughra (insignia) of Sultan Suleman the Magnificent (1520-66).jpeg" alt="Tughra Calligraphy 1">
+                        <figcaption>Tughra (insignia) of Sultan Suleman the Magnificent (1520-66).</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="The first Ottoman tughra, Orhan I (1326)..jpg" alt="Tughra Calligraphy 2">
+                        <figcaption>The first Ottoman tughra, Orhan I (1326).</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Letter Representation Tughra.jpeg" alt="Tughra Calligraphy 3">
+                        <figcaption>Letter Representation Tughra.</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="style-section">
+                <h3>Maghrebi:</h3>
+                <p>Popular in North Africa and Spain, Maghrebi script is known for its rounded and flowing characters, often used in manuscripts and inscriptions.</p>
+                <div class="image-group">
+                    <figure>
+                        <img src="Maghrebi Style Found in Morocco.jpeg" alt="Maghribi Calligraphy 1">
+                        <figcaption>Maghrebi Style Found in Morocco.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="CLassic Maghrebi Style.jpeg" alt="Maghribi Calligraphy 2">
+                        <figcaption>CLassic Maghrebi Style.</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="Holy Quran Verses Written in Maghrebi Style.png" alt="Maghribi Calligraphy 3">
+                        <figcaption>Holy Quran Verses Written in Maghrebi Style.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Islamic Calligraphy Gallery. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
